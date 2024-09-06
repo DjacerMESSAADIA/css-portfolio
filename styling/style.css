@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* Didn't want to change to the roboto font just because i prefer this one better */
 :root {
   --primary: #1a4dc9;
   --primary-content: #e6ecfc;
@@ -54,6 +55,7 @@ header {
       }
     }
   }
+  /* I used flexbox to put the list items inside the nav inline */
   nav {
     display: flex;
     align-items: center;
